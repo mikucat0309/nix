@@ -5,7 +5,7 @@
     ./packages/homebrew.nix
   ];
 
-  homebrew.enable = true;
+  homebrew.enable = false;
 
   programs.bash.enable = true;
   programs.zsh.enable = true;
